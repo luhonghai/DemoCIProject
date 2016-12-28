@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         // TEST Link to Issue on Jira UF-3
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        // Force failed build
+        setContentView(R.layout.activity_main_not_found);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
